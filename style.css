@@ -1,0 +1,229 @@
+*html object.MediaPlayerNotForIE{
+    display: none;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f8f8e6;
+    color: #131212;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size:smaller;
+}
+
+div.Titles{
+    padding: 0.5rem;
+    font-size: 100%;
+    display: inline;
+    text-align: center;
+    
+}
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    display: inline;
+}
+.ExoTitle{
+    font-size: 120%;
+    color: rgb(0, 17, 255);
+}
+.ExoSubtitle{
+    font-size: 100%;
+    color: #000000;
+}
+div.StdDiv{
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 100%;
+    color: #000000;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #000000;
+    margin-bottom: 1px;
+}
+a{
+    color: rgb(0, 17, 255);
+    text-decoration: none;
+
+}
+
+table,div,span,td{
+    font-size: 80%;
+    color: #000000;
+}
+div.StdDiv{
+    
+    background-color: #f8e8e6;
+    text-align: center;
+    font-size: 100%;
+    padding: 0.5rem;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #000000;
+    margin-bottom: 1px;
+
+}
+input, textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+}
+div.Feedback{
+    background-color: #fff;
+    left: 33%;
+    width: 35%;
+    top:50%;
+    z-index: 1;
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px;
+    
+    text-align: center;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position:absolute;
+    font-size: 100%;
+}
+
+#FeebackContent{
+    padding-top: 2px;
+}
+table.CrosswordGrid{
+margin: auto auto 1em auto;
+border-collapse: collapse;
+padding: 0px;
+background-color: #000000;
+}
+table.CrosswordGrid tbody tr td{
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 140%;
+    padding: 1px;
+    margin: 0px;
+    border-style: solid;
+    border-color: #000000;
+    color: #000000;
+}
+table.CrosswordGrid span{
+    color: #000000;
+}
+table.CrosswordGrid td.BlankCell{
+    background-color: #000000;
+    color: #000000;
+}
+
+table.CrosswordGrid td.LetterOnlyCell{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    color: #000000;
+    font-weight: bold;
+    
+}
+table.CrosswordGrid td.NumLetterCell{
+    text-align: left;
+    vertical-align:auto;
+    background-color: #fff;
+    color: #000000;
+    padding: 0px;
+    font-weight: bold;
+}
+.NumLetterCellText{
+    cursor: pointer;
+    color: #000000;
+}
+
+.GridNum{
+    vertical-align: super;
+    font-size: 66%;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.GridNum:hover, .GridNum:visited{
+    color: #000000;
+}
+table#Clues{
+    margin: auto;
+    vertical-align: top;
+}
+
+table#Clues td{
+    vertical-align: top;
+}
+table.ClueList{
+    margin: auto;
+}
+td.ClueNum{
+    text-align: right;
+    font-weight: bold;
+    vertical-align: top;
+}
+td.Clue{
+    text-align: left;
+}
+div#ClueEntry{
+    text-align: left;
+    margin-bottom: 1em;
+    font-size: 110%;
+}
+
+div.NavButtonBar{
+    background-color: #000000;
+    text-align:center;
+    margin: 2px 2px 2px 2px;
+    clear: both;
+    font-size: 100%;
+}
+.NavButton{
+    border-style: solid;
+    border-left-color: #7f7f7f;
+    border-top-color: #7f7f7f;
+    border-right-color: #7f7f7f;
+    border-bottom-color: #000000;
+    background-color: #000000;
+    border-width: 2px;
+    cursor: pointer;
+    color: #fff;
+}
+
+a:visited{
+    color: rgb(0, 17, 255);
+}
+a:hover{
+    color:rgb(0, 17, 255) ;
+}
+.jiguen{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+.guide{
+    color: #fff;
+}
+
+pre{
+
+font-size: 140%;
+}
+#banniereDroite{
+    width: 30%;
+    height:100%;
+    background-color: #7f7f7f;
+    border: 1px solid #000000;
+    float:left;
+    margin-left: unset;
+
+
+}
+
+
+.jiguen{
+    text-align: center;
+}
+.vider{
+    margin-bottom: 10px;
+}
+
+
